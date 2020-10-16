@@ -1,0 +1,60 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 474
+  ClientWidth = 319
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFC2FBCA
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 80.000000000000000000
+    RotationAngle = -30.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Segoe UI Emoji'
+    TextSettings.Font.Size = 72.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Coming Soon!'
+  end
+  object lbl_titlegame: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Segoe UI Historic'
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Catch the Flame - the Game'
+  end
+  object edt_ads: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Text = 'Advertisement space'
+    TextSettings.HorzAlign = Center
+    Position.X = -8.000000000000000000
+    Position.Y = 432.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

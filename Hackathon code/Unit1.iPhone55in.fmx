@@ -1,0 +1,32 @@
+inherited Form1_iPhone55in: TForm1_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 0
+  inherited img_logo: TImage
+    Size.Width = 257.000000000000000000
+    Size.Height = 249.000000000000000000
+  end
+  inherited btn_where: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited btn_help: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited lbl_fire: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited edt_test: TEdit
+    Size.Height = 30.000000000000000000
+  end
+  inherited lbl_help: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited save: TSaveDialog [13]
+  end
+  inherited img_share: TImage [14]
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 8.000000000000000000
+  end
+  inherited btn_backd: TButton [15]
+  end
+end
